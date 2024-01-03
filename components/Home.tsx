@@ -5,7 +5,7 @@ import Dashboard from './Dashboard'
 const Home = () => {
   return (
     <View style={styles.home}>
-      <Text><Dashboard /></Text>
+      <Dashboard />
     </View>
   )
 }
@@ -14,7 +14,7 @@ export default Home
 
 const styles = StyleSheet.create({
     home:{
+        // flex: 1,
         padding: 10,
-        width: '100%'
     }
 })

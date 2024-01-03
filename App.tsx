@@ -16,6 +16,6 @@ export default App
 
 const styles = StyleSheet.create({
   app:{
-    width: '100%'
+    // width: '100%'
   }
 })
