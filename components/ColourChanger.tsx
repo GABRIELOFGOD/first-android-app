@@ -16,7 +16,7 @@ const ColourChanger = () => {
 
   return (
     <>
-        <StatusBar backgroundColor={background} />
+        {/* <StatusBar backgroundColor={background} /> */}
       <View style={[styles.container, {backgroundColor: background}]}>
         <TouchableOpacity onPress={backgroundChanger}>
             <View style={styles.btn}>
